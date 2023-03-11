@@ -4,7 +4,6 @@ const NewMenu = React.lazy(() => import('./views/menus/newMenu/NewMenu'));
 
 const routes = [
   { path: '/', exact: true, name: 'Home' },
-  // { path: '/dashboard', name: 'Dashboard', component: Dashboard },
   { path: '/menus/TestCode', name: 'TestCode', component: TestCode },
   { path: `/menus/NewMenu`, name: 'NewMenu', component: NewMenu}
 ];
